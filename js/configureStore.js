@@ -15,8 +15,8 @@ export default function configureStore(onCompletion: () => void): any {
 		devTools({
 			name: 'TutorApp',
 			realtime: true,
-			hostname: 'localhost',
-			port: 8000
+			// hostname: 'localhost',
+			// port: 8000
 		}),
 	);
 

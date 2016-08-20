@@ -3,8 +3,10 @@
     "version": "0.0.1",
     "private": true,
     "scripts": {
-        "debug": "remotedev-debugger --runserver true",
-        "start": "node_modules/react-native/packager/packager.sh"
+        "start": "node_modules/react-native/packager/packager.sh",
+        "ios": "react-native run-ios",
+        "android": "react-native run-android",
+        "remotedev": "remotedev-debugger --runserver true"
     },
     "dependencies": {
         "color": "~0.11.1",
